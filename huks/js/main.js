@@ -24,7 +24,7 @@
  
       $('a').each(function () {
         $(this).removeClass('active');
-      })
+      });
       $(this).addClass('active');
  
       var target = this.hash;
@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is M.Reza", "I'm a Web Designer", "Love Simplicity"],
+        strings: ["My Name is Serhii", "I'm a Front End developer", "Love Simplicity"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
@@ -120,8 +120,7 @@
       itemsDesktopSmall : [979,1],
       itemsTablet : [768,1],
       itemsMobile : [479,1],
-      autoPlay : false,
-
+      // autoPlay : false,
       // CSS Styles
       baseClass : "owl-carousel",
       theme : "owl-theme"
