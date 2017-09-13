@@ -28,7 +28,7 @@
       $(this).addClass('active');
  
       var target = this.hash;
-      $target = $(target);
+      // $target = $(target);
       $('html, body').stop().animate({
         'scrollTop': $target.offset().top+2
       }, 500, 'swing', function () {
@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is Serhii", "I'm a Front End developer", "Love Simplicity"],
+        strings: ["Меня зовут Сергей", "I'm a Front End developer", "Love Simplicity"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
